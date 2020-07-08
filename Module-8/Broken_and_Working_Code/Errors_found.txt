@@ -1,0 +1,27 @@
+Edward Reyes
+Module 8
+
+To clarify, I have made no changes or corrections to the page layout. I was only concerned 
+about the functionality of the website which I believe I've successfully addressed. 
+
+In the .html file, there were a few errors I've found.
+1. Line: 106 The id's for the text colors did not match with the text that defines the color.
+
+2. Line 131: The script tag's src was "error.js" when it should be "logic.js", so the page
+was unable to load the script file onto the page.
+
+3. Line 90: The text within the ordered list tags were not wrapped around <li> tags,
+so the text appeared with no numbers to signify their order.
+
+4. The title of the page was missing a h1 tag, which is why it did not appear large and white. I've wrapped
+the title of the page with h1 tags.
+
+I also found two errors in the logic.js file.
+1. The booFacts array was missing several quotation marks, making the array only have one element when
+each sentence separated by commas were supposed to be their own element. I've included double quotes
+where they were needed.
+
+2. A couple of "click" methods were missing quotes as well. I added quotes to the on-click functions
+that were missing them.
+
+I have not found any errors in the style.css file.
