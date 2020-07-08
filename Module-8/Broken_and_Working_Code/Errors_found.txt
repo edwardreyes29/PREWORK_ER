@@ -16,6 +16,9 @@ so the text appeared with no numbers to signify their order.
 4. The title of the page was missing a h1 tag, which is why it did not appear large and white. I've wrapped
 the title of the page with h1 tags.
 
+5. The image link and attributes were not wrapped around with angle brackets. I've added <,/, and > to
+complete the <img> element so it could render in the html page properly.
+
 I also found two errors in the logic.js file.
 1. The booFacts array was missing several quotation marks, making the array only have one element when
 each sentence separated by commas were supposed to be their own element. I've included double quotes
